@@ -22,4 +22,6 @@ The game displays in full screen, so to close it you can do the following
 - Press the windows-button
 - Go to your processbar, find the blue fellow and close the windows
 
-**Go save christmas from the naughty gingerbread med!**
+
+
+****Go save christmas from the naughty gingerbread med!****
