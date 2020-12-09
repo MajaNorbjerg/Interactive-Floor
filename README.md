@@ -1,5 +1,5 @@
 # Interactive-Floor
-A prototype I made for my main assignment on the multimediadesign education
+A prototype I made for my main assignment on the multimediadesign education using `Godot` and `C#`.
 
 ## How to run the program (Windows only)
 - Go to the latest release called `Interactive-floor_mouse-only_program_Windows` (It sould be at the right side of the screen).
@@ -24,4 +24,8 @@ The game displays in full screen, so to close it you can do the following
 
 
 
-****Go save christmas from the naughty gingerbread med!****
+####Go save christmas from the naughty gingerbread med!
+
+## The code
+In this repository you´ll find a snippet from the entire projet, so this won´t run alone in Godot.
+The code available functions game mecanics only.
