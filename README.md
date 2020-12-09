@@ -24,7 +24,7 @@ The game displays in full screen, so to close it you can do the following
 
 
 
-#### Go save christmas from the naughty gingerbread med!
+### Go save christmas from the naughty gingerbread med!
 
 ## The code
 In this repository you´ll find a snippet from the entire projet, so this won´t run alone in Godot.
