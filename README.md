@@ -20,7 +20,7 @@ The game displays in full screen, so to close it you can do the following
 To get the best experience with the game. Your display resolution for your screen should be 1920 x 1080.
 
 ### How to play the game
-Use your mouse to catch the ginerbread men. There´s a slightly dark red box around the mouse to indicate the detection area.
+Use your mouse to catch the ginerbread men. There´s a yellow box around the mouse to indicate the detection area of a person.
 
 
 ### Go save christmas from the naughty gingerbread men!
