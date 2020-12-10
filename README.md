@@ -13,7 +13,8 @@ The game displays in full screen, so to close it you can do the following
 
 ## How to run the program (Windows only)
 - Go to the latest release called `Interactive-floor_mouse-only_program_Windows` (It sould be at the right side of the screen).
-- Download the `project.zip` file.
+- Download the `InteractiveFloor_Prototype_Mouse-only.zip
+` file.
 - Extract the folder when ready
 - Run the file `floor_mouse-only.exe`
 
