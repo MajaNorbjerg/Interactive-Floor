@@ -70,6 +70,8 @@ public class timerBall : RigidBody2D
         if (global.GameState == global.StateGameOver && global.doRun == true)
         {
             GameOver.Visible = true; // Show the game over screen
+            GetNode<AnimationPlayer>("/root/Spatial/GameOver/ViewportContainer/Viewport/GingerbreadMan/AnimationPlayer").Play(global.VictoryAnimation);
+            GetNode<AnimationPlayer>("/root/Spatial/GameOver/ViewportContainer2/Viewport/GingerbreadMan/AnimationPlayer").Play(global.VictoryAnimation2);
 
             GetNode<Timer>("/root/Spatial/GameOver/GameOverTimer").Start(); // Start timer for hiding the screen again
             // Replace the value on the game over screen with the number of points

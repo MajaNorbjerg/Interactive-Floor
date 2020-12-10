@@ -65,14 +65,18 @@ public class CharacterArea : Godot.Area
             }
             if (global.ReadyCatch == 2 && global.GameState == global.StateIdle) // If readycatch is 2, then start the game
             {
-                global.ReadyCatch = 0; // Reset readyCatch
-
-                global.GameState = global.StateStart; // Set game state
-                global.IdleInfo.Visible = false; // Hide the screen info
-                global.firstTimerBall = true; // Activate hourglass
-                global.BackgroundMusicIdle.Stop(); // Stop music
-                global.BackgroundMusicGame.Play(); // Start new music
+                StartGame();
             }
         }
+    }
+    public void StartGame()
+    {
+        global.ReadyCatch = 0; // Reset readyCatch
+
+        global.GameState = global.StateStart; // Set game state
+        global.IdleInfo.Visible = false; // Hide the screen info
+        global.firstTimerBall = true; // Activate hourglass
+        global.BackgroundMusicIdle.Stop(); // Stop music
+        global.BackgroundMusicGame.Play(); // Start new music
     }
 }

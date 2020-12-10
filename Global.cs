@@ -36,6 +36,9 @@ public class Global : Node
     public float speedMin = 4f;
     public float speedMax = 6f;
     public Timer CharacterTimer;
+    public string RunningAnimation;
+    public string VictoryAnimation;
+    public string VictoryAnimation2;
 
 
     // --------- Levels ---------
@@ -50,6 +53,7 @@ public class Global : Node
     public Control IdleInfo;
     public AudioStreamPlayer BackgroundMusicIdle;
     public AudioStreamPlayer BackgroundMusicGame;
+
 
 
 
@@ -145,6 +149,9 @@ public class Global : Node
         speedMin = 4f;
         speedMax = 4.2f;
         CharacterTimer.WaitTime = 1.5f;
+        RunningAnimation = "SlowRunAnimation";
+        VictoryAnimation = "WawingAnimation";
+        VictoryAnimation2 = "SambaMoveAnimation";
     }
 
     public void Level1()
@@ -155,6 +162,10 @@ public class Global : Node
 
         LabelStar1.Visible = true;
         NextLevelSound.Play();
+        RunningAnimation = "SlowRunAnimation";
+        VictoryAnimation = "SambaDancing";
+        VictoryAnimation2 = "JazzAnimation";
+       
     }
     public void Level2()
     {
@@ -164,6 +175,9 @@ public class Global : Node
 
         LabelStar2.Visible = true;
         NextLevelSound.Play();
+        RunningAnimation = "JoggingAnimation";
+        VictoryAnimation = "DancingAnimation";
+        VictoryAnimation2 = "SambaShakeAnimation";
     }
     public void Level3()
     {
@@ -173,5 +187,8 @@ public class Global : Node
 
         LabelStar3.Visible = true;
         NextLevelSound.Play();
+        RunningAnimation = "DrunkRunAnimation";
+        VictoryAnimation = "HipHopAnimation";
+        VictoryAnimation2 = "BackflipAnimation";
     }
 }
